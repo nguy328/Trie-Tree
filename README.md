@@ -64,7 +64,9 @@ Ensures each processes is correctly working
 view report REP
 ```
 Within SQLDeveloper:
+```
 Make changes in source database
+```
 Check if changes synced to target database
 ```
 ggsci oracle18
