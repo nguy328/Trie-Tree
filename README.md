@@ -24,6 +24,8 @@ add replicat REP, exttrail /home/opc/oracle18/dirdat/cc, begin now, checkpointta
 [Click here to go to lab 500](https://github.com/GaryHostt/GoldenGate2ADB/blob/master/Lab500.md)
 
 # Lab 500: GoldenGate in-action
+
+If you have reached this lab, then you have configured a full GoldenGate migration data sync. All that is left is to monitor your processes to see if they're working correctly. So let's continue.
 ```
 ggsci oracle11
 Start *
