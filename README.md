@@ -24,30 +24,42 @@ add replicat REP, exttrail /home/opc/oracle18/dirdat/cc, begin now, checkpointta
 [Click here to go to lab 500](https://github.com/GaryHostt/GoldenGate2ADB/blob/master/Lab500.md)
 
 # Lab 500: GoldenGate in-action
+```
 ggsci oracle11
 Start *
+```
 Ensure all extract processes have started
+```
 info all
+```
 Ensure each processes is correctly working
+```
 view report (EXT/PMP)
+```
 Ensure logging file is created
 ```
 cd oracle11/dirdat/
-		111
+```
 Check if file exists
 Repeat for oracle18/dirdat/
+```
 ggsci oracle18
 Start *
+```
 Ensure all extract processes have started
+```
 info all
+```
 Ensure each processes is correctly working
 ```
 view report REP
-		111
+```
 Within SQLDeveloper:
 Make changes in source database
 Check if changes synced to target database
+```
 ggsci oracle18
 Command: stats replicat REP
+```
 
 Congratulations, you have completed your day in the life of Tim successfully. 
