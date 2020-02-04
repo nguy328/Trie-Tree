@@ -28,29 +28,29 @@ add replicat REP, exttrail /home/opc/oracle18/dirdat/cc, begin now, checkpointta
 ggsci oracle11
 Start *
 ```
-Ensure all extract processes have started
+Ensures all extract processes have started
 ```
 info all
 ```
-Ensure each processes is correctly working
+Ensures each processes is correctly working
 ```
 view report (EXT/PMP)
 ```
-Ensure logging file is created
+Ensures logging file is created
 ```
 cd oracle11/dirdat/
 ```
-Check if file exists
+Checks if file exists
 Repeat for oracle18/dirdat/
 ```
 ggsci oracle18
 Start *
 ```
-Ensure all extract processes have started
+Ensures all extract processes have started
 ```
 info all
 ```
-Ensure each processes is correctly working
+Ensures each processes is correctly working
 ```
 view report REP
 ```
