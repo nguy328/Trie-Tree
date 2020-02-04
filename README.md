@@ -22,7 +22,7 @@ edit param ./GLOBALS
 Add line
 ALLOWOUTPUTDIR /home/opc/oracle18/dirdat/
 ```
-Configure Replicat process
+Configure Replicate process
 ```
 edit param REP (INSERT SCREENSHOT)
 add replicat REP, exttrail /home/opc/oracle18/dirdat/cc, begin now, checkpointtable ggadmin.ggschkpt
