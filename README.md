@@ -5,8 +5,10 @@ Trie Tree Data Structure
 
 Continuing from lab300, to replicate the process configuration
 
-
+```
 dblogin useridalias ADW
+```
+
 Configure mgr dynamic ports
 ```
 edit param mgr
